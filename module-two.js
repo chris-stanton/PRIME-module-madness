@@ -1,11 +1,11 @@
 
 
-function currencyToString(number){
+module.exports = { currencyToString: function(number){
 return 'USD: $' + number;
+  }
 }
 
-
-
-module.exports = {
-currencyToString: number
-}
+//
+// module.exports = {
+// currencyToString:
+// }

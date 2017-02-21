@@ -6,7 +6,7 @@ var finalString = require('./module-three.js');
 
 
 console.log(randomNumber.randomNumber(100, 1000000));
-console.log(moduleTwo(randomNumber));
+console.log(currencyToString(randomNumber));
 
 var http = require("http");
 http.createServer(function(req, res){

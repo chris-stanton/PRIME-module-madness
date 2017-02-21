@@ -8,12 +8,12 @@ module.exports = {
 
 functionOne: function(){
   return currentcyFormatter(randomNumberGenerator.randomNumber(100, 1000000));
-}
+},
 
 
-function returnText() {
+functionTwo: function() {
   return "Account Balance:\n" + currentcyFormatter;
 }
 
 
-}
+};
