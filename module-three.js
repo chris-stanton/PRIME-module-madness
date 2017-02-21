@@ -12,7 +12,7 @@ functionOne: function(){
 
 
 functionTwo: function() {
-  return "Account Balance:\n" + currentcyFormatter;
+  return "Account Balance:\n";
 }
 
 
